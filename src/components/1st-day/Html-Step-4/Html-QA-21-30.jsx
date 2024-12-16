@@ -15,7 +15,7 @@ export const HtmlQA2130 = () => {
             <ul className="list-disc">
               {items.points.map((list, idx) => (
                 <li key={idx} className="pb-2">
-                  <strong className="text-secondary">{list.pName && `${list.pName}`}</strong>
+                  <strong className="text-html2">{list.pName && `${list.pName}`}</strong>
                   {list.point} <br />
                   {list.example && (<SyntaxHighlighter language="html" style={dracula}>
                     {list.example}
