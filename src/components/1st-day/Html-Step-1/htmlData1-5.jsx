@@ -84,15 +84,15 @@ export const HQA45 = [
       "এটি সার্চ ইঞ্জিন অপটিমাইজেশন (SEO)-এর জন্য গুরুত্বপূর্ণ।",
     ],
     example: `<!DOCTYPE html>
-<html>
-<head>
-    <title>My Website</title>
-</head>
-<body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a demo page.</p>
-</body>
-</html>
+      <html>
+      <head>
+          <title>My Website</title>
+      </head>
+      <body>
+          <h1>Welcome to My Website</h1>
+          <p>This is a demo page.</p>
+      </body>
+      </html>
 
     `,
     result: "ব্রাউজারের ট্যাবে My Website লেখা থাকবে।",
@@ -107,25 +107,21 @@ export const HQA45 = [
       "কোডের অংশ সাময়িকভাবে নিষ্ক্রিয় রাখতে।",
     ],
     example: `<!DOCTYPE html>
-<html>
-<head>
-    <title>Comment Example</title>
-</head>
-<body>
-    <!-- This is a comment -->
-    <h1>Welcome to HTML</h1>
-    <!-- This paragraph explains the content -->
-    <p>This is a paragraph of text.</p>
-</body>
-</html>
+      <html>
+      <head>
+          <title>Comment Example</title>
+      </head>
+      <body>
+          <!-- This is a comment -->
+          <h1>Welcome to HTML</h1>
+          <!-- This paragraph explains the content -->
+          <p>This is a paragraph of text.</p>
+      </body>
+      </html>
 
 
     `,
     result: "কমেন্ট ব্রাউজারে প্রদর্শিত হবে না।",
   },
 ];
-
-
-
-
 

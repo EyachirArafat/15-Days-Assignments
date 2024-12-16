@@ -3,8 +3,8 @@ import { Container } from "../../NeededComponents/common/Container";
 import { QuestionTemp } from "../../NeededComponents/common/QuestionTemp";
 import { Title } from "../../NeededComponents/common/Title";
 import SyntaxHighlighter from "react-syntax-highlighter";
-import { BasicStructure, HQA45 } from "../data";
-import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { BasicStructure, HQA45 } from "./htmlData1-5";
+
 import { dracula } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 export const HtmlQA45 = () => {
@@ -14,8 +14,8 @@ export const HtmlQA45 = () => {
         <p key={index}>
           <QuestionTemp questions={items.q} />
           <Title title={items.title} />
-          {items.points.map((point)=>(
-            <ul className="list-disc">
+          {items.points.map((point, idx)=>(
+            <ul key={idx} className="list-disc">
               <li>{point}</li>
             </ul>
           ))}

@@ -3,7 +3,7 @@ import { Container } from "../../NeededComponents/common/Container";
 import { QuestionTemp } from "../../NeededComponents/common/QuestionTemp";
 import { Title } from "../../NeededComponents/common/Title";
 import SyntaxHighlighter from "react-syntax-highlighter";
-import { HtmlTag } from "../data";
+import { HtmlTag } from "./htmlData1-5";
 import { darcula } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 export const HtmlQA2 = () => {

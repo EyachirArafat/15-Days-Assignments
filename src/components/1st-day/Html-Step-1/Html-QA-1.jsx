@@ -3,7 +3,7 @@ import { Container } from "../../NeededComponents/common/Container";
 import { QuestionTemp } from "../../NeededComponents/common/QuestionTemp";
 import { Title } from "../../NeededComponents/common/Title";
 import SyntaxHighlighter from "react-syntax-highlighter";
-import { BasicStructure } from "../data";
+import { BasicStructure } from "./htmlData1-5";
 import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 import { dracula } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
