@@ -10,7 +10,7 @@ function App() {
         <NavbarOne/>
         <NavbarTwo/>
       </header>
-      <main className="bg-[#1A1E1C] h-screen text-white">
+      <main className="bg-[#1A1E1C]  text-white">
         <Outlet/>
       </main>
     </>

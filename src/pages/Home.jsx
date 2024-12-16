@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container } from '../components/NeededComponents/Container';
+import { Container } from '../components/NeededComponents/common/Container';
+
 
 function Home() {
   return (
