@@ -1,7 +1,6 @@
 export const HQA610 = [
   {
-    q: "1. What is the difference between an HTML element and an HTML attribute give us example with proper Explanation. ",
-    a: "1. Difference Between HTML Element and HTML Attribute",
+    q: "6. What is the difference between an HTML element and an HTML attribute give us example with proper Explanation. ",
     points:[
       {
         pName: "Element:",
@@ -16,8 +15,7 @@ export const HQA610 = [
     ]
   },
   {
-    q: "  2. Explain the global attributes in HTML, such as class, id, style, and title With Example.",
-    a: "2. Global Attributes (class, id, style, title)",
+    q: "7. Explain the global attributes in HTML, such as class, id, style, and title With Example.",
     points:[
       {
         pName: "class:",
@@ -43,8 +41,7 @@ export const HQA610 = [
     ]
   },
   {
-    q: "3. What is the purpose of the alt attribute in an <img> tag?",
-    a: "3. Purpose of alt Attribute in <img> Tag",
+    q: "8. What is the purpose of the alt attribute in an <img> tag?",
     points:[
       {
         point: "Provides alternative text for an image.",
@@ -56,8 +53,7 @@ export const HQA610 = [
     ]
   },
   {
-    q: "4. Describe the href attribute and its role in the <a> tag?",
-    a: "4. Role of href Attribute in <a> Tag",
+    q: "9. Describe the href attribute and its role in the <a> tag?",
     points:[
       {
         point: "Specifies the URL or destination link.",
@@ -66,8 +62,7 @@ export const HQA610 = [
     ]
   },
   {
-    q: "5. How does the target attribute work within an <a> tag? What is _blank?",
-    a: "5. How target Attribute Works in <a> Tag (_blank)",
+    q: "10. How does the target attribute work within an <a> tag? What is _blank?",
     points:[
       {
         pName: "Purpose:",
