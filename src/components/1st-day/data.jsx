@@ -74,8 +74,56 @@ export const HQA3 = [
   },
 ];
 
+export const HQA45 = [
+  {
+    q: "4. Describe the function of the <title> tag. Where does it appear With Example.",
+    title: "<title> ট্যাগ কী? এর কার্যকারিতা কী এবং এটি কোথায় দেখা যায়?",
+    points: [
+      "<title> ট্যাগ HTML ডকুমেন্টের শিরোনাম নির্ধারণ করে।",
+      "এটি ব্রাউজারের ট্যাবে প্রদর্শিত হয়।",
+      "এটি সার্চ ইঞ্জিন অপটিমাইজেশন (SEO)-এর জন্য গুরুত্বপূর্ণ।",
+    ],
+    example: `<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a demo page.</p>
+</body>
+</html>
+
+    `,
+    result: "ব্রাউজারের ট্যাবে My Website লেখা থাকবে।",
+  },
+  {
+    q: "5. How do you add comments in HTML, and why are they useful?",
+    title: "HTML-এ কিভাবে কমেন্ট যোগ করবেন এবং এগুলো কেন প্রয়োজন?",
+    points: [
+      "HTML-এ কমেন্ট যোগ করতে <!-- দিয়ে শুরু এবং --> দিয়ে শেষ করতে হয়।",
+      "কোডের উদ্দেশ্য ব্যাখ্যা করতে।",
+      "ডেভেলপারদের জন্য নোট রাখতে।",
+      "কোডের অংশ সাময়িকভাবে নিষ্ক্রিয় রাখতে।",
+    ],
+    example: `<!DOCTYPE html>
+<html>
+<head>
+    <title>Comment Example</title>
+</head>
+<body>
+    <!-- This is a comment -->
+    <h1>Welcome to HTML</h1>
+    <!-- This paragraph explains the content -->
+    <p>This is a paragraph of text.</p>
+</body>
+</html>
 
 
+    `,
+    result: "কমেন্ট ব্রাউজারে প্রদর্শিত হবে না।",
+  },
+];
 
 
 
