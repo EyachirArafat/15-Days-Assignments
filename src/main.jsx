@@ -21,7 +21,10 @@ const router = createBrowserRouter(
     <Route path='/' element={<App/>}>
       <Route index element={<Home/>}/>
       <Route path='/html' element={<AllAboutHTML/>}/>
-      <Route path='*' element={<div className='text-center text-5xl py-20'>Page is not found</div>}/>
+      <Route path='*' element={<div className='text-center flex flex-col text-5xl py-20'>
+        <span className='text-red-500'>404!</span>
+        <span>Page is not found</span>
+      </div>}/>
     </Route>
   )
 )

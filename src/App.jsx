@@ -6,11 +6,11 @@ function App() {
 
   return (
     <>
-      <header>
+      <header className="fixed w-full">
         <NavbarOne/>
         <NavbarTwo/>
       </header>
-      <main className="bg-[#1A1E1C]  text-white">
+      <main className="bg-[#1A1E1C] text-white md:pt-24 pt-16">
         <Outlet/>
       </main>
     </>

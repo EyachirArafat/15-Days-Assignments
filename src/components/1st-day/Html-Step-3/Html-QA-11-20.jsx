@@ -1,16 +1,15 @@
 import React from "react";
 import { Container } from "../../NeededComponents/common/Container";
-import { HQA610 } from "./htmlData6-10";
+import { HQA1120 } from "./htmlData11-20";
 import { QuestionTemp } from "../../NeededComponents/common/QuestionTemp";
-import { Title } from "../../NeededComponents/common/Title";
-import { list } from "postcss";
+
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { dracula } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
-export const HtmlQA610 = () => {
+export const HtmlQA1120 = () => {
   return (
     <Container>
-      {HQA610.map((items, index) => (
+      {HQA1120.map((items, index) => (
         <div key={index}>
           <QuestionTemp questions={items.q}>
             <ul className="list-disc">
