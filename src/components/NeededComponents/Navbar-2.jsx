@@ -12,7 +12,7 @@ function Navbar() {
             : 'p-2 px-6 hover:bg-green-600'
         }
       >
-        HTML <span className='text-[10px]'>(1st day)</span>
+        HTML
       </NavLink>
       <NavLink
         to='css'
@@ -22,7 +22,17 @@ function Navbar() {
             : 'p-2 px-6 hover:bg-green-600'
         }
       >
-        CSS <span className='text-[10px]'>(2nd day)</span>
+        CSS
+      </NavLink>
+      <NavLink
+        to='tailwindcss'
+        className={({ isActive }) =>
+          isActive
+            ? 'p-2 px-6 bg-green-600 text-red-600'
+            : 'p-2 px-6 hover:bg-green-600'
+        }
+      >
+        Tailwind
       </NavLink>
       
      
