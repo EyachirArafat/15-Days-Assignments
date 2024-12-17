@@ -179,12 +179,15 @@ export const CssQA = [
       },
     ],
   },
+
+
+
   {
     step: "Two",
     title: "Mostly Used CSS Properties",
     qa: [
       {
-        id: 1,
+        id: 9,
         question:
           "How does the display property work, and what are the different display values?",
         points: [
@@ -205,7 +208,7 @@ export const CssQA = [
         ],
       },
       {
-        id: 2,
+        id: 10,
         question:
           "What is the position property, and how do different position values (static, relative, absolute, fixed, sticky) behave?",
         points: [
@@ -229,7 +232,7 @@ export const CssQA = [
         ],
       },
       {
-        id: 3,
+        id: 11,
         question:
           "How do the padding, margin, and border properties work in CSS?",
         points: [
@@ -257,7 +260,7 @@ export const CssQA = [
         ],
       },
       {
-        id: 4,
+        id: 12,
         question:
           "Explain the flex property. How do flex-grow, flex-shrink, and flex-basis work?",
         points: [
@@ -314,7 +317,7 @@ export const CssQA = [
         ],
       },
       {
-        id: 5,
+        id: 13,
         question:
           "What is the difference between width, min-width, and max-width?",
         points: [
@@ -335,7 +338,7 @@ export const CssQA = [
         ],
       },
       {
-        id: 6,
+        id: 14,
         question:
           "How does the z-index property work, and when would you use it?",
         points: [
@@ -358,7 +361,7 @@ export const CssQA = [
         ],
       },
       {
-        id: 7,
+        id: 15,
         question:
           "What is the difference between the opacity and visibility properties?",
         points: [
@@ -387,12 +390,15 @@ export const CssQA = [
       },
     ],
   },
+
+
+
   {
     step: "Three",
     title: "CSS Layouts & Responsiveness",
     qa: [
       {
-        id: 1,
+        id: 16,
         question:
           "What is the difference between flexbox and CSS Grid, and when should you use each?",
         points: [
@@ -419,7 +425,7 @@ export const CssQA = [
         ],
       },
       {
-        id: 2,
+        id: 17,
         question:
           "Explain how to create a responsive layout using media queries.",
         points: [
@@ -435,7 +441,7 @@ export const CssQA = [
         ],
       },
       {
-        id: 3,
+        id: 18,
         question:
           "How do you create a centered element in CSS? Provide multiple ways.",
         points: [
@@ -473,7 +479,7 @@ justify-items: center → অনুভূমিকভাবে সেন্ট�
         ],
       },
       {
-        id: 4,
+        id: 19,
         question:
           "How does CSS Grid work, and what are grid-template-rows and grid-template-columns?",
         points: [
@@ -494,7 +500,7 @@ justify-items: center → অনুভূমিকভাবে সেন্ট�
         ],
       },
       {
-        id: 5,
+        id: 20,
         question:
           "How does the flex-direction property work in Flexbox, and what are its values?",
         points: [
@@ -523,7 +529,7 @@ column-reverse: নিচ থেকে উপরে সাজানো হয়।
         ],
       },
       {
-        id: 6,
+        id: 21,
         question:
           "What is a viewport, and how do you make elements responsive to viewport changes?",
         points: [
@@ -542,7 +548,7 @@ column-reverse: নিচ থেকে উপরে সাজানো হয়।
         ],
       },
       {
-        id: 7,
+        id: 22,
         question:
           "How can you create a sticky footer that stays at the bottom of the page?",
         points: [
@@ -563,7 +569,7 @@ column-reverse: নিচ থেকে উপরে সাজানো হয়।
         ],
       },
       {
-        id: 8,
+        id: 23,
         question:
           "Explain how you would approach creating a mobile-first design.",
         points: [
@@ -580,12 +586,15 @@ column-reverse: নিচ থেকে উপরে সাজানো হয়।
       },
     ],
   },
+
+
+  
   {
     step: "Four",
     title: "Advanced CSS Questions",
     qa: [
       {
-        id: 1,
+        id: 24,
         question: "What do you understand by the universal selector?",
         points: [
           {
@@ -599,7 +608,7 @@ column-reverse: নিচ থেকে উপরে সাজানো হয়।
         ],
       },
       {
-        id: 2,
+        id: 25,
         question:
           "What are CSS preprocessors, and how do they work? Give examples like SASS or LESS.",
         points: [
@@ -627,7 +636,7 @@ Write SASS/LESS Code → 2. Compile → 3. Generate Standard CSS
         ],
       },
       {
-        id: 3,
+        id: 26,
         question:
           "Explain CSS custom properties (CSS variables) and their benefits.",
         points: [
@@ -652,7 +661,7 @@ Write SASS/LESS Code → 2. Compile → 3. Generate Standard CSS
         ],
       },
       {
-        id: 4,
+        id: 27,
         question:
           "How do CSS animations work, and how can you create a keyframe animation?",
         points: [
@@ -684,7 +693,7 @@ div {
         ],
       },
       {
-        id: 5,
+        id: 28,
         question:
           "What are CSS transitions, and how are they different from animations?",
         points: [
@@ -711,7 +720,7 @@ button:hover {
         ],
       },
       {
-        id: 6,
+        id: 29,
         question: "What is the difference between rem, em, and px units?",
         points: [
           {
@@ -774,7 +783,7 @@ p {
         ],
       },
       {
-        id: 7,
+        id: 30,
         question: "What is SVG and how can it be used to create custom shapes?",
         points: [
           {
