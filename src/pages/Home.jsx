@@ -6,7 +6,7 @@ function Home() {
   return (
     <Container>
       <div className='flex h-screen justify-center items-center'>
-        <div className='text-center space-y-2 border md:p-10 p-2 mb-64'>
+        <div className='text-center space-y-2 border md:p-10 p-2 mb-64 bg-[#1A1E1C] text-white'>
           <h1 className='text-4xl text-green-600 text-center'>Welcome to <span className='text-red-600'>15 Days</span> Assignments</h1>
           <p>I am <span className='text-2xl'>Eyachir Arafat</span></p>
           <p><span className='font-bold'>Email:</span> mohammad106685@gmail.com</p>
