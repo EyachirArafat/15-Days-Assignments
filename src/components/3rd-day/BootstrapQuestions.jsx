@@ -5,18 +5,18 @@ import { Title } from "../NeededComponents/common/Title"
 import { QuestionTemp } from "../NeededComponents/common/QuestionTemp"
 
 import { dracula, nightOwl } from "react-syntax-highlighter/dist/esm/styles/hljs"
-import { TailwindQA } from "./tailwindData"
 import SyntaxHighlighter from "react-syntax-highlighter"
+import { BootstrapQA } from "./bootstrapData"
 
 
-export const TailwindQAnswers =()=>{
+export const BootstrapQAnswers =()=>{
   return(
-    <Container className="px-2 bg-[#112131] text-white">
+    <Container className="px-2 bg-[#393841] text-white">
       <div className="pt-12 flex flex-col">
-        <h1 className="lg:text-5xl md:text-3xl md:w-[70%] text-2xl mx-auto text-center border-l border-r md:mb-20 mb-10"><span className="text-html1">TailwindCSS</span> Important Questions <span className="text-html2">Answers</span> To Crack The Interviews</h1>
+        <h1 className="lg:text-5xl md:text-3xl md:w-[70%] text-2xl mx-auto text-center border-l border-r md:mb-20 mb-10"><span className="text-html1">Bootstrap</span> Important Questions <span className="text-html2">Answers</span> To Crack The Interviews</h1>
 
         {
-          TailwindQA.map(({step, title, qa, index})=>(
+          BootstrapQA.map(({step, title, qa, index})=>(
             <div key={index}>
               <StepCount step={step} titleText={title}/>
 

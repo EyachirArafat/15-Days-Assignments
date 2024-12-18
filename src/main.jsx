@@ -16,6 +16,7 @@ import Home from "./pages/Home"
 import { AllAboutHTML } from './components/1st-day/AllAboutHTML.jsx'
 import { AllAboutCSS } from './components/2nd-day/AllAboutCSS.jsx'
 import { TailwindQAnswers } from './components/3rd-day/TailwindQuestions.jsx'
+import { BootstrapQAnswers } from './components/3rd-day/BootstrapQuestions.jsx'
 
 
 const router = createBrowserRouter(
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
       <Route path='/html' element={<AllAboutHTML/>}/>
       <Route path='/css' element={<AllAboutCSS/>}/>
       <Route path='/tailwindcss' element={<TailwindQAnswers/>}/>
+      <Route path='/bootstrap' element={<BootstrapQAnswers/>}/>
 
       
       <Route path='*' element={<div className='text-center flex flex-col text-5xl py-20'>
