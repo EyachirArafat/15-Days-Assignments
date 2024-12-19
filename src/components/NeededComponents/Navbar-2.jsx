@@ -54,6 +54,16 @@ function Navbar() {
       >
         JS
       </NavLink>
+      <NavLink
+        to='advanceJS'
+        className={({ isActive }) =>
+          isActive
+            ? 'p-2 px-6 bg-green-600 text-red-600'
+            : 'p-2 px-6 hover:bg-green-600'
+        }
+      >
+        ES6
+      </NavLink>
       
      
     </div>
