@@ -10,19 +10,19 @@ import {
 } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
-import { DOMData } from "./DOMData";
+import { BOMData } from "./BOMData";
 
-export const DOM = () => {
+export const BOM = () => {
   return (
     <Container className="px-2 bg-[#112131] text-white">
       <div className="pt-12 flex flex-col">
         <h1 className="lg:text-5xl md:text-3xl md:w-[70%] text-2xl mx-auto text-center border-l border-r md:mb-20 mb-10">
-          <span className="text-html1">DOM</span> Important
+          <span className="text-html1">BOM</span> Important
           Questions <span className="text-html2">Answers</span> To Crack The
           Interviews
         </h1>
 
-        {DOMData.map(({ step, title, qa, index }) => (
+        {BOMData.map(({ step, title, qa, index }) => (
           <div key={index}>
             <StepCount step={step} titleText={title} />
 

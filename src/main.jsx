@@ -20,6 +20,7 @@ import { BootstrapQAnswers } from './components/3rd-day/BootstrapQuestions.jsx'
 import { JavaScriptQAnswers } from './components/4th-day/JavaScriptQAnswers.jsx'
 import { ES6 } from './components/5th-day/AdvanceJS.jsx'
 import { DOM } from './components/5th-day/DOM.jsx'
+import { BOM } from './components/5th-day/BOM.jsx'
 
 
 const router = createBrowserRouter(
@@ -33,6 +34,7 @@ const router = createBrowserRouter(
       <Route path='/js' element={<JavaScriptQAnswers/>}/>
       <Route path='/advanceJS' element={<ES6/>}/>
       <Route path='/dom' element={<DOM/>}/>
+      <Route path='/bom' element={<BOM/>}/>
 
       
       <Route path='*' element={<div className='text-center flex flex-col text-5xl py-20'>
