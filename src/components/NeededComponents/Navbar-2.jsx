@@ -64,6 +64,16 @@ function Navbar() {
       >
         ES6
       </NavLink>
+      <NavLink
+        to='dom'
+        className={({ isActive }) =>
+          isActive
+            ? 'p-2 px-6 bg-green-600 text-red-600'
+            : 'p-2 px-6 hover:bg-green-600'
+        }
+      >
+        DOM
+      </NavLink>
       
      
     </div>

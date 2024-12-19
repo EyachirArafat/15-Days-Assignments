@@ -10,9 +10,9 @@ import {
 } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
-import { ES6Data } from "./ES6Data";
+import { DOMData } from "./DOMData";
 
-export const ES6 = () => {
+export const DOM = () => {
   return (
     <Container className="px-2 bg-[#112131] text-white">
       <div className="pt-12 flex flex-col">
@@ -22,7 +22,7 @@ export const ES6 = () => {
           Interviews
         </h1>
 
-        {ES6Data.map(({ step, title, qa, index }) => (
+        {DOMData.map(({ step, title, qa, index }) => (
           <div key={index}>
             <StepCount step={step} titleText={title} />
 
@@ -50,15 +50,15 @@ export const ES6 = () => {
                       <li>
                         <strong>Project:</strong>
                         <ul>
-                          {project.map(({ description, example1 }, idx) => (
+                          {project.map(({ desc, example }, idx) => (
                             <li key={idx}>
-                              <p>{description}</p>
-                              {example1 && (
+                              <p>{desc}</p>
+                              {example && (
                                 <SyntaxHighlighter
                                   language="javascript"
                                   style={nightOwl}
                                 >
-                                  {example1}
+                                  {example}
                                 </SyntaxHighlighter>
                               )}
                             </li>
