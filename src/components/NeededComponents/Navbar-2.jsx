@@ -44,6 +44,16 @@ function Navbar() {
       >
         Bootstrap
       </NavLink>
+      <NavLink
+        to='js'
+        className={({ isActive }) =>
+          isActive
+            ? 'p-2 px-6 bg-green-600 text-red-600'
+            : 'p-2 px-6 hover:bg-green-600'
+        }
+      >
+        JS
+      </NavLink>
       
      
     </div>
