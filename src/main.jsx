@@ -24,6 +24,7 @@ import { BOM } from './components/5th-day/BOM.jsx'
 import { WebAPIJson } from './components/5th-day/WebAPI-JSON.jsx'
 import { ReactJS } from './components/6th-day/ReactJs.jsx'
 import { ReactRouter } from './components/6th-day/ReactRouter.jsx'
+import { RealLifeProject } from './components/6th-day/Project/RealLifeProjects.jsx'
 
 
 const router = createBrowserRouter(
@@ -41,6 +42,7 @@ const router = createBrowserRouter(
       <Route path='/webapi-json' element={<WebAPIJson/>}/>
       <Route path='/reactJs' element={<ReactJS/>}/>
       <Route path='/reactrouter' element={<ReactRouter/>}/>
+      <Route path='/projects' element={<RealLifeProject/>}/>
 
       
       <Route path='*' element={<div className='text-center flex flex-col text-5xl py-20'>

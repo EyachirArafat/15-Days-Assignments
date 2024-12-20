@@ -1,4 +1,5 @@
 // components 
+import { RealLifeProject } from "./components/6th-day/Project/RealLifeProjects"
 import NavbarOne from "./components/NeededComponents/Navbar/Navbar-1"
 import NavbarTwo from "./components/NeededComponents/Navbar/Navbar-2"
 import { Outlet } from "react-router-dom"
