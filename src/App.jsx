@@ -1,6 +1,6 @@
 // components 
-import NavbarOne from "./components/NeededComponents/Navbar-1"
-import NavbarTwo from "./components/NeededComponents/Navbar-2"
+import NavbarOne from "./components/NeededComponents/Navbar/Navbar-1"
+import NavbarTwo from "./components/NeededComponents/Navbar/Navbar-2"
 import { Outlet } from "react-router-dom"
 function App() {
 
