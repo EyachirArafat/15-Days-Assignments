@@ -1,7 +1,7 @@
 export const BOMData = [
   {
-    step: "BOM",
-    title: "BOM (8 questions)",
+    step: "One",
+    title: "BOM (8 questions & Answers)",
     qa: [
       {
         id: "bom-1",

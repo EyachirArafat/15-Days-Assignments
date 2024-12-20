@@ -1,7 +1,7 @@
 export const DOMData = [
   {
     step: "One",
-    title: "DOM Questions",
+    title: "DOM Questions & Answers",
     qa: [
       {
         id: 1,

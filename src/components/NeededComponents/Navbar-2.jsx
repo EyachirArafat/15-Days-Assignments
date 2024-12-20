@@ -84,6 +84,16 @@ function Navbar() {
       >
         BOM
       </NavLink>
+      <NavLink
+        to='webapi-json'
+        className={({ isActive }) =>
+          isActive
+            ? 'p-2 px-6 bg-green-600 text-red-600 text-nowrap'
+            : 'p-2 px-6 hover:bg-green-600 text-nowrap'
+        }
+      >
+        WebAPI & JSON
+      </NavLink>
       
      
     </div>
