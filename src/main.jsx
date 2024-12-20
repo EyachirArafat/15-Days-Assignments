@@ -22,6 +22,8 @@ import { ES6 } from './components/5th-day/AdvanceJS.jsx'
 import { DOM } from './components/5th-day/DOM.jsx'
 import { BOM } from './components/5th-day/BOM.jsx'
 import { WebAPIJson } from './components/5th-day/WebAPI-JSON.jsx'
+import { ReactJS } from './components/6th-day/ReactJs.jsx'
+import { ReactRouter } from './components/6th-day/ReactRouter.jsx'
 
 
 const router = createBrowserRouter(
@@ -37,6 +39,8 @@ const router = createBrowserRouter(
       <Route path='/dom' element={<DOM/>}/>
       <Route path='/bom' element={<BOM/>}/>
       <Route path='/webapi-json' element={<WebAPIJson/>}/>
+      <Route path='/reactJs' element={<ReactJS/>}/>
+      <Route path='/reactrouter' element={<ReactRouter/>}/>
 
       
       <Route path='*' element={<div className='text-center flex flex-col text-5xl py-20'>

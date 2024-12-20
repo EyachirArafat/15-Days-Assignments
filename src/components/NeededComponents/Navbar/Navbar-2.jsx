@@ -14,6 +14,9 @@ function Navbar() {
       <CommonNav direction='dom' children="DOM"/>
       <CommonNav direction='bom' children="BOM"/>
       <CommonNav direction='webapi-json' children="WebAPI & JSON"/>
+      <CommonNav direction='reactjs' children="ReactJS"/>
+      <CommonNav direction='reactrouter' children="ReactRouter"/>
+      <CommonNav direction='projects' children="Real Life Projects"/>
       
     </div>
   );
